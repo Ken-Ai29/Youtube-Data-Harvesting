@@ -1,0 +1,36 @@
+# Data Processing and Model Deployment
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Converting Data from Unstructured Format](#converting-data-from-unstructured-format)
+3. [Cleaning Data](#cleaning-data)
+4. [Exploratory Data Analysis](#exploratory-data-analysis)
+5. [Model Training and Testing](#model-training-and-testing)
+6. [Deploying Model Using Streamlit](#deploying-model-using-streamlit)
+7. [Conclusion](#conclusion)
+
+## Introduction
+This project involves processing data from unstructured formats, cleaning the data, performing exploratory data analysis (EDA), training and testing a model, and deploying the model using Streamlit.
+
+## Converting Data from Unstructured Format
+In this step, we convert raw data, which may be in various unstructured formats such as text files, PDFs, or JSON objects, into a structured format (e.g., CSV, DataFrame) suitable for further processing.
+The data is in nested dictioneries which need to be converted to required structured data.
+
+## Concatening data
+Now after converting to structured format, we merge all data present in different cities to single dataset
+
+## Cleaning Data
+Data cleaning involves removing or correcting inaccuracies and inconsistencies, handling missing values, and ensuring the data is in a format that can be easily analyzed. This step improves the quality of the data.
+
+## Exploratory Data Analysis
+During EDA, we use statistical methods and visualization tools to explore the data, uncover underlying patterns, spot anomalies, test hypotheses, and check assumptions. This step helps in understanding the data better.
+
+## Model Training and Testing
+We select an appropriate machine learning model, train it using the cleaned data, and evaluate its performance using testing datasets. This step includes hyperparameter tuning and model validation to ensure optimal results.
+
+## Deploying Model Using Streamlit
+Finally, we deploy the trained model using Streamlit, a web application framework for machine learning and data science projects. This step involves creating interactive web apps to showcase the model’s predictions and performance metrics.
+
+## Conclusion
+This project covers the end-to-end process of converting unstructured data into a structured format, cleaning the data, performing exploratory data analysis, training and testing a machine learning model, and deploying the model using Streamlit.
+for identifying the price of the used car
